@@ -21,10 +21,16 @@ Or install it yourself as:
 ## Usage
 
 To use as an equation parser and evaluator:
-    $ RpnCalculator.calculate('1+7-3*16/2**(1+1)') #=> -4
-To directly access the reverse polish calculator:
-    $ RpnCalculator.evaluate([[1,7,3,4,5,6],['+','-','*','/','**']]) #=> 4096
 
+```ruby
+    $ RpnCalculator.calculate('1+7-3*16/2**(1+1)') #=> -4
+```
+
+To directly access the reverse polish calculator:
+
+```ruby
+    $ RpnCalculator.evaluate([[1,7,3,4,5,6],['+','-','*','/','**']]) #=> 4096
+```
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/rpn_calculator/fork )
